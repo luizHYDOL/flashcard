@@ -1,3 +1,9 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+
+}
 body {
 background-color:url('bg-desktop.webp');
 font-family: Bai Jamjuree;
@@ -5,6 +11,10 @@ font-family: Bai Jamjuree;
 
 #container {
 display:flex ;
+  flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
 .cartao {
 margin: 1rem 1rem;
@@ -28,8 +38,8 @@ font-size: 1vw;
 }
 
 footer {
-background-color: black;
-color: white;
+background-color: rgb(7, 0, 0);
+color: rgb(244, 236, 12);
 bottom:0;
 position:fixed;
 width:100%;
