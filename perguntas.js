@@ -1,7 +1,7 @@
 criaCartao(
     'Historia',
-    'Qual é o primeiro nome de Hitler?',
-    'Adolf'
+    'Por quantos anos durou a segunda guerra mundial?',
+    'Ela durou 6 anos'
 )
 
 criaCartao(
@@ -17,6 +17,6 @@ criaCartao(
 )
     criaCartao(
     'Historia',
-    'Em que ano o Brasil foi descoberto?',
-    'No ano de 1500 '
+    'Em que ano a União Sovietica foi disolvida?',
+    'Acabou em 1991'
 )
